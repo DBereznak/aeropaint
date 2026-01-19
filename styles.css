@@ -1,0 +1,825 @@
+/***************************************************
+	      template by marija zaric
+	      and distributed by http://freehtml5templates.com 
+***************************************************
+
+
+***************************************************
+			      Reset
+***************************************************/
+:root{
+	--primary-color: #0d1b29;
+	--secondary-color: #bb8c4a
+}
+
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, ol, ul, li, form, label, legend, caption, aside, details, figcaption, figure, footer,header, hgroup, menu, nav, section, summary {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+
+a img {border:none}
+
+
+aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {display: block}
+
+
+/***************************************************
+			      Global styles
+***************************************************/
+
+html {
+	width:100%;
+	}
+
+
+ body{
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	background-color: var(--primary-color);
+}
+
+
+p {
+	margin-bottom:7px;
+
+	}
+	
+a, p a {
+	text-decoration:none;
+	color:white;
+	}
+	a:hover {color:white;}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+	position:relative;
+
+	
+
+}
+
+
+	
+h1{
+	font-size: 25px;
+	line-height:0.9;
+	color:#D6D6D6;
+	text-align:left;
+	margin-bottom:10px;
+	padding-bottom:10px;
+
+
+	}
+
+	
+	
+h2{
+	font-size: 24px;
+	line-height:1.3;
+	color:#f9fb2c;
+	text-transform:none;
+	text-align:center;
+	font-style:italic;
+	margin-top:7px;
+	padding-bottom:6px;
+
+
+
+	}
+	
+
+h3{
+	font-size: 23px;
+	line-height:0.9;
+	color:#FF6666;
+	text-align:left;
+	margin-bottom:10px;
+	padding-bottom:10px;
+	}
+	
+h3 span{
+	
+	font-size: 12px;
+	line-height: 1.4;
+	color:white;
+	display:block;
+	margin-top:10px;
+	text-transform:none;
+
+
+}
+
+h4{
+	font-size: 18px;
+	line-height:0.9;
+	color:#f9fb2c;
+	text-align:left;
+	font-style:italic;
+	margin-bottom:12px;
+	padding-bottom:10px;
+	}
+
+
+	
+h4 span{
+	
+	font-size: 12px;
+	line-height: 1.4;
+	color:white;
+	display:block;
+	margin-top:10px;
+	text-transform:none;
+
+
+}
+
+/***************************************************
+			    Main containers
+***************************************************/
+
+#container, #container_left, #container_right{
+	position: relative;
+	width:100%;
+	
+	}
+	#container{
+			position:relative;
+			width:980px;
+			margin:0 auto;
+			background-color:transparent;
+			min-height:100%;
+
+			
+}
+
+#text
+{
+	position:relative;
+	top: 100px;
+	
+	margin: 50px auto;
+	width: 600px;
+}
+#text p
+{
+	font-size: 24px;
+	text-indent: 15px;
+	color:#f9fb2c;
+}
+
+.group1 {
+	float: left;
+	width: 200px;
+	position: relative;
+	background:transparent;
+	padding:15px;
+	margin-bottom:10px;
+
+	
+
+
+	}
+	
+.group2 {
+	float: left;
+	width: 200px;
+	position: relative;
+	background:transparent;
+	padding:15px;
+	margin-bottom:10px;
+
+
+	}
+	
+.group3 {
+	float: left;
+	width: 200px;
+	position: relative;
+	background:transparent;
+	padding:15px;
+	margin-bottom:10px;
+
+
+	}
+
+.group4 {
+	float: left;
+	width: 200px;
+	position: relative;
+	background:transparent;
+	padding:15px;
+	margin-bottom:10px;
+
+
+	}
+
+	
+.group5 {
+	float: left;
+	width: 945px;
+	position: relative;
+	padding:15px;
+	background:transparent;
+	
+
+
+
+
+	}
+	
+.group6 {
+	float: left;
+	width: 945px;
+	position: relative;
+	padding:15px;
+	background:transparent;
+	margin-top:16px;
+	
+
+	}
+	
+	
+	
+			
+header{
+	position: relative;
+	float:left;
+	width: 100%;
+	height:83px;
+	}
+	
+#logo
+{
+	top: 0px;
+}
+.address
+{
+	float:right;
+	top: 0;
+	width: 300px;
+	margin: 0;
+}	
+.footeraddress
+{
+	text-align:right;
+	padding: 7px;
+	position:absolute;
+	float:right;
+	right: 15px;
+	width: 300px;
+	margin: 0;
+}	
+.footeraddress p
+{
+	font-size: 16px;
+	font-weight:bold;
+	color: var(--primary-color);
+}
+	
+/***************************************************
+				INTRO
+***************************************************/	
+	
+	#intro{
+	width: 960px;
+	position: relative;
+	float: left;
+	height:300px;
+	padding:10px;
+	background:#E9EAEB;
+	margin-top:52px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+
+	
+	
+
+	}
+
+/***************************************************
+				   HOLDERS
+***************************************************/	
+
+.holder_content {
+	position: relative;
+	float: left;
+	width: 100%;
+	margin-top:-10px;
+	margin-bottom:16px;
+	margin-left:26px;
+
+
+
+	}
+	
+.holder_content1 {
+	position: relative;
+	width: 25%;
+	height: 160px;
+	top: -10px;
+	margin: 20px auto;
+	border-right: 3px solid #524c94;
+	}
+
+
+.holder_content1 .content{
+	display: block;
+	position: relative;
+	width: 33%;
+	margin: 20px auto;
+}
+
+
+.holder_content1 .content img{
+	width: 200px;
+	height: auto;
+}
+
+.holder_content1 .content p{
+	font-size: 16px;
+}
+
+.holder_content2 {
+	position:absolute;
+	float: left;
+	left: 15px;
+	width: 35%;
+	padding: 5px;
+	top: 10px;
+	height: 150px;
+	border-right: 3px solid #524c94;
+	}
+	
+	
+	
+.holder_content_separator{
+	margin-bottom:19px;
+	}
+
+	
+/***************************************************
+			        GALLERY
+***************************************************/
+	 
+	 	 
+	 a.photo_hover3{
+	position:relative;
+	float: left;
+	margin:5px 13px 8px 0;
+	padding: 8px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 2px 2px #D7D7D7;
+	-webkit-box-shadow: 2px 2px #D7D7D7;
+
+
+
+	}
+	a.photo_hover3{background:#E9EAEB;
+
+	border: 1px solid #E1E1E1;
+
+}
+	a.photo_hover3:hover {
+	border: 1px solid #E1E1E1;
+	background-color:white;
+	opacity:0.5;
+}
+
+	
+	 a.photo_hover2{
+	position:relative;
+	float: right;
+	margin:5px 13px 8px 0;
+	padding: 8px;
+	-moz-box-shadow: 3px 3px gray;
+	-webkit-box-shadow: 3px 3px gray;
+	box-shadow: 3px 3px gray;
+
+	}
+	a.photo_hover2{ background-color:white;
+	border: 1px solid #E1E1E1;
+
+}
+	a.photo_hover2:hover {
+	border: 1px solid #E1E1E1;
+	background-color:white;
+	opacity:0.5;
+	z-index:1000;
+}
+	
+.spacer
+{
+	position:relative;
+	height: 150px;
+}
+	
+/***************************************************
+			        FOOTER
+***************************************************/
+
+
+footer{
+	position:relative;
+	clear:both;
+	width:100%;
+	bottom: -50px;
+	height: 100px;
+	background-color: var(--secondary-color);
+	border-top: 3px solid silver;
+	
+	}
+
+#FooterOne, #FooterTwo, #FooterTree {
+	position: absolute;	
+}
+
+#FooterTwo{
+	position: absolute;
+	right: 225px;
+	top:250px;
+	color:white;
+
+}
+
+#FooterTree{
+	position: absolute;
+	left: 225px;
+	top:250px;
+	color:white;
+
+}
+
+.container{
+    margin: auto;
+	background-color:transparent;
+	min-height: 800px;
+}
+
+.container .logo {
+	width: 300px;
+	margin: auto;
+	padding-top: 150px;
+}
+.container .logo h1 {
+	font-size: 48px;
+} 
+
+.container .logo h1, 
+.container .logo h2, 
+.container .logo h3 {
+	color: var(--secondary-color);
+	text-align: center;
+	padding-top: 10px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container .logo a{
+	color: var(--secondary-color);
+	font-size: 18px;
+}
+
+.container .form{
+	margin: 75px;
+	position:  relative;
+	top: 100px;
+}
+
+.footer_left{
+	float:left;
+	padding:12px;
+	margin-top:15px;
+	width:170px;
+	margin-right:76px;
+}
+
+
+
+/***************************************************
+				       MENU
+***************************************************/
+
+nav{
+	position:relative;
+	width:600px;
+	height:40px;
+	float:left;
+    margin: 0 auto;
+	z-index: 100;
+}
+
+
+nav ul li{
+	float: left;
+	line-height:normal;
+	margin-left:15px;
+}
+
+nav ul li a{
+	font-size: 22px;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:white;
+	text-transform:capitalize;
+	font-weight:normal;
+	display:block;	/* IE6, IE7 line height fix */
+	background-color:transparent;
+    text-decoration:none;
+	margin-top:3px;
+	padding:5px;
+	border-bottom: 3px solid #333333;
+
+}
+
+nav ul li a:hover{
+	color:#f9fb2c;
+	border-bottom: 3px solid #524c94;
+}
+
+
+
+
+/***************************************************
+				   SPECIFIC
+***************************************************/
+
+#logo{
+	position:relative;
+   	float:left;
+   	top:-14px;
+	left:6px;
+	width:250px;
+	height:160px;
+	z-index:10000;
+	
+
+}
+
+.clearing{
+	clear: both;
+	display: inline;
+	width: 100%;
+	height: 0;
+	overflow:hidden;
+}
+
+ 
+ 	
+.button {
+	width: 80px;
+	height:16px;
+	position:relative;
+	margin-top:12px;
+	padding:9px;
+	background:#E9EAEB;
+	display: inline-block;
+	color:#FF9966;
+	font-weight:bold;
+	cursor: pointer;
+	text-align: center;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	float:left;
+	text-decoration:none;
+	-moz-box-shadow: 2px 2px #D7D7D7;
+	-webkit-box-shadow: 2px 2px #D7D7D7;
+
+	
+
+
+	
+	
+	}
+	
+.button:hover {
+
+	text-decoration:underline;
+}
+
+.titletext
+{
+position: relative;
+margin: auto 0;
+top: 135px;
+}
+
+
+
+/*	
+	Slideshow
+*/
+
+#slides {
+	position:relative;
+	padding-top: 50px;
+	z-index:100;
+	margin-bottom: 100px;
+
+
+}
+    #slides .slidesjs-navigation {
+      margin-top:5px;
+    }
+
+    a.slidesjs-next,
+    a.slidesjs-previous,
+    a.slidesjs-play,
+    a.slidesjs-stop {
+      background-image: url(images/btns-next-prev.png);
+      background-repeat: no-repeat;
+      display:block;
+      width:12px;
+      height:18px;
+      overflow: hidden;
+      text-indent: -9999px;
+      float: left;
+      margin-right:5px;
+    }
+
+    a.slidesjs-next {
+      margin-right:10px;
+      background-position: -12px 0;
+    }
+
+    a:hover.slidesjs-next {
+      background-position: -12px -18px;
+    }
+
+    a.slidesjs-previous {
+      background-position: 0 0;
+    }
+
+    a:hover.slidesjs-previous {
+      background-position: 0 -18px;
+    }
+
+    a.slidesjs-play {
+      width:15px;
+      background-position: -25px 0;
+    }
+
+    a:hover.slidesjs-play {
+      background-position: -25px -18px;
+    }
+
+    a.slidesjs-stop {
+      width:18px;
+      background-position: -41px 0;
+    }
+
+    a:hover.slidesjs-stop {
+      background-position: -41px -18px;
+    }
+
+    .slidesjs-pagination {
+      margin: 7px 0 0;
+      float: right;
+      list-style: none;
+    }
+
+    .slidesjs-pagination li {
+      float: left;
+      margin: 0 1px;
+    }
+
+    .slidesjs-pagination li a {
+      display: block;
+      width: 13px;
+      height: 0;
+      padding-top: 13px;
+      background-image: url(images/pagination.png);
+      background-position: 0 0;
+      float: left;
+      overflow: hidden;
+    }
+
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+      background-position: 0 -13px
+    }
+
+    .slidesjs-pagination li a:hover {
+      background-position: 0 -26px
+    }
+
+    #slides a:link,
+    #slides a:visited {
+      color: #333
+    }
+
+    #slides a:hover,
+    #slides a:active {
+      color: #9e2020
+    }
+/*
+	Slides container
+	Important:
+	Set the width of your slides container
+	Set to display none, prevents content flash
+*/
+
+.slides_container {
+	margin:0 auto;
+	top: 150px;
+	width:800px;
+	overflow:hidden;
+	position:relative;
+	display:none;
+	
+}
+
+.clearfloat
+{
+	clear:both; !important
+}
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	If height not specified height will be set by the slide content
+	Set to display block
+*/
+
+.slides_container a {
+	width:600px;
+	height:300px;
+	display:block;
+}
+
+.slides_container a img {
+	display:block;
+}
+
+/*
+	Next/prev buttons
+*/
+
+#slides .next,#slides .prev {
+	position:absolute;
+	top:107px;
+	left:-39px;
+	width:24px;
+	height:43px;
+	display:block;
+	z-index:101;
+}
+
+#slides .next {
+	left:585px;
+}
+
+/*
+	Pagination
+*/
+
+    .slidesjs-pagination .active {
+      color:red;
+    }
+
+.picture_footer{
+	position:absolute;
+	left:900px;
+	top:-85px;
+}
+
+#form
+{
+position:relative;
+top: 140px;
+margin: 0 auto;
+height: 950px;
+
+}
+
+.process{
+     position: relative;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.process p{
+color:#f9fb2c;
+font-size: 16px;
+line-height: 1.25
+}
+
+.process h1{
+color:#f9fb2c;
+text-align: center;
+font-size: 32px;
+}
+
